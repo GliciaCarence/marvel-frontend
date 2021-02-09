@@ -3,7 +3,7 @@ import cover from "../assets/cover.jpg";
 
 const Home = () => {
     return (
-        <section>
+        <section className="--home">
             <img className="--cover" src={cover} alt={cover} />
         </section>
     );
