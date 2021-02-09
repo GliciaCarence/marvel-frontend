@@ -13,7 +13,7 @@ const Footer = () => {
                 <FontAwesomeIcon
                     icon={faGithub}
                     size="2x"
-                    style={{ color: "white" }}
+                    style={{ color: "#ffffff" }}
                 />
             </a>
         </footer>

@@ -21,7 +21,7 @@ library.add(faSearch, faAngleDoubleRight, faAngleDoubleLeft, faHeart);
 
 const App = () => {
     return (
-        <div>
+        <div className="--app-container">
             <Router>
                 <ScrollToTop />
                 <Header />
