@@ -33,8 +33,8 @@ const Character = () => {
     }, [id]);
 
     return error ? (
-        <section>
-            <p>error</p>
+        <section className="--error">
+            <p>Sorry, an error has occured.</p>
         </section>
     ) : isLoading ? (
         <section className="--loader">

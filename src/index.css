@@ -27,7 +27,8 @@ code {
     color: #212121;
 }
 
-.--loader {
+.--loader,
+.--error {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -283,7 +284,8 @@ code {
 }
 
 .--no-results p,
-.--no-favorites p {
+.--no-favorites p,
+.--error p {
     font-size: 18px;
     font-weight: 600;
     line-height: 25px;
