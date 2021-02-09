@@ -46,7 +46,7 @@ code {
     height: 85px;
     width: 100%;
     background-color: #212121;
-    z-index: 9999;
+    z-index: 999;
 }
 
 .--logo {
@@ -231,6 +231,8 @@ code {
 .--buttons-container {
     margin: 30px auto;
     width: 100%;
+    position: relative;
+    z-index: 9999;
 }
 
 .--buttons {
@@ -320,6 +322,13 @@ code {
 }
 
 /* ----- Responsive ----- */
+
+@media screen and (min-width: 1800px) {
+    .--content {
+        grid-gap: 26px;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
 
 @media screen and (max-width: 1400px) {
     .--content {
