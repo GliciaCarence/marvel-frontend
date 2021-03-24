@@ -70,22 +70,6 @@ const Character = () => {
                     })}
                 </div>
             </section>
-
-            {/* <section className="--container">
-                <div className="--content">
-                    {data.comics.map((comic, index) => {
-                        return (
-                            <Card
-                                key={`card-${comic._id}`}
-                                title={comic.title}
-                                description={comic.description}
-                                image={`${comic.thumbnail.path}.${comic.thumbnail.extension}`}
-                                itemId={comic._id}
-                            />
-                        );
-                    })}
-                </div>
-            </section> */}
         </>
     );
 };

@@ -25,7 +25,7 @@ export const handleImage = (image, largeImage) => {
     return largeImage ? imageNotAvailableLarge : imageNotAvailable;
 };
 
-// allow to verify if an item is favorite or not
+// verify if an item is favorite or not
 export const isFavorite = (itemId) => {
     // get a list of favorite items in local storage
     let favorites = localStorage.getItem("favorites");
@@ -81,7 +81,6 @@ export const addOrRemoveFromFavorites = ({
             });
         }
     } else {
-        // if `favotites` is undefined, create an array
         favorites = [
             {
                 title,
